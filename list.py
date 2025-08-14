@@ -94,3 +94,23 @@ numberlist.sort()
 print(numberlist)
 numberlist.reverse()
 print(numberlist)
+
+
+list coppy method
+
+list = ["amit", "giri", "sachin", "rohan"]
+newlist = ["rohan" ,"rajesh"]
+newlist = list.copy()
+print(newlist)
+
+mylist = list[:]
+print(mylist)
+
+list =[1,2,3,4,5,6]
+list2 =["amit", "giri", "sachin"]
+
+# list3 =list +list2
+# print(list3)
+
+list2 =list.append()
+print(list2)
