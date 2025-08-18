@@ -11,9 +11,13 @@ myfunction() # function call
 # arment and parmeter bothe are same which i sgiven in the finction 
 
 
-def newfun(fname, lname)
-    print(fname, lname)
+# def newfun(fname, lname)
+#     print(fname, lname)
 
 
 
-newfun("amit", "giri")
+# newfun("amit", "giri")
+def my_function(fname, lname):
+  print(fname + " " + lname)
+
+my_function("Emil", "Refsnes")
